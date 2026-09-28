@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>ESTOQUE</title>
+    <link rel="stylesheet" href="interface.css">
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+            <img src="imagens/transferir.jpg">
+        </div>
+        <div class="formulario">
+            <form action="cadastrar.php" method="post">
+                <div class="cabecario">
+                    <div class="titulo">
+                        <h1>CADASTRE UM PRODUTO</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="cod">Codigo:</label>
+                        <input id="cod" type="text" name="cod"required>
+                    </div>  
+                    <div class="input-box">
+                        <label for="produto">Produto:</label>
+                        <input id="produto" type="text" name="produto"required>
+                    </div>
+                    <div class="input-box">
+                        <label for="preco">Preço:</label>
+                        <input id="preco" type="text" name="preco"required>
+                    </div>
+                </div>
+                <div class="botao-continuar">
+                    <button><a href="cadastrar.php"></a>REGISTRAR</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="formulario">
+            <form action="cadastrar.php" method="post">
+                <div class="cabecario">
+                    <div class="titulo">
+                        <h1>REGISTRA UM PRODUTO</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="cod">Codigo do produto cadastrado:</label>
+                        <input id="cod" type="text" name="cod"required>
+                    </div>
+                    <div class="input-box">
+                        <label for="quantidade">Quantidade:</label>
+                        <input id="quantidade" type="text" name="quantidade"required>
+                    </div>
+                    <label>Tipo do registro:</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipo_mov" id="entrada" value="entrada" checked>
+                        <label class="form-check-label" for="entrada">Entrada</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipo_mov" id="saida" value="saida">
+                        <label class="form-check-label" for="saida">Saída</label>
+                    </div>
+                </div>
+                <div class="botao-continuar">
+                    <button><a href="cadastrar.php"></a>REGISTRAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
