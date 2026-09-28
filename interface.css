@@ -1,0 +1,112 @@
+body{
+width: 100%;    
+height: 100%;
+background-color: #8c61e9;
+}
+.container{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,2);
+    background-color: white;
+}
+.imagem{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 2px black solid;
+}
+.imagem img{
+    width: 40rem;
+    height: 80vh;
+}
+.formulario{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bba6e9;
+    padding: 3rem;
+    border: 2px black solid;
+}
+.cabecario{
+margin-bottom: 3rem;
+display: flex;
+justify-content: space-between;
+}
+.cabecario h1{
+    font-size: 2rem;
+    top: 12%;
+    color: white;
+    font-family: monospace;
+}
+.cabecario h1::after{
+    content: '';
+    display: block;
+    width: 7rem;
+    height: 0.5rem;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group{
+    display: flex;
+    flex-wrap:wrap; 
+   margin-bottom: 1rem;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.6rem 1rem;
+    border:none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px  #0000001c;
+}
+.input-box input:hover{
+    background-color:  #eeeeee75;
+}
+.input-box input:focus-visible{
+    outline: 1px solid #3c09b3;
+}
+.input-box label{
+font-size: 1.2rem;
+font-weight: 400;
+font-family: monospace;
+color: white;
+}
+.botao-continuar button{
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: #9176d1;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .botao-continuar button:hover{
+        background-color: #bb90ec75;
+    }
+    .botao-continuar button a{
+        text-decoration: none;
+        font-size: 0.93rem;
+        font-weight: 500;
+    }
+label{
+    font-size: 1rem;
+font-weight: 400;
+font-family: monospace;
+color: white;
+}
